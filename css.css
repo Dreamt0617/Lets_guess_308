@@ -1,0 +1,42 @@
+@charset="utf-8";
+
+*{
+  box-sizing: border-box;
+}
+/* *:全部適用 */
+
+h5{
+	color: red;
+}
+/*指h5標籤的字就會是紅色*/
+
+.center{
+	text-align:center;
+}
+/*命名一個變數，只要含有這個class的就會有裡面的性質(置中)*/
+
+
+div {
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  /*利用留邊置中*/
+
+  background-color: black;
+  color:LightGreen;
+  /*顏色*/
+
+  font-size:90px; /*字體大小*/
+  text-align:center; /*字體置中*/
+}
+
+body{
+  margin: 0px; /*取消預設留邊*/
+  body style="background-color:black; /*背景顏色*/
+}
+
+
+
+
+
